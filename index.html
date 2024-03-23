@@ -1,76 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
-  
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #b3e0f2; 
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eesha Pedakota : Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: cadetblue;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .subtitle {
+            color: gray;
+        }
+        nav {
+            text-align: center;
+            background-color: darkcyan;
+        }
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 200px; 
+            height: 200px; 
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+        }
+        .event {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .date {
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .details {
+            flex: 1;
+        }
+        .about-me {
+            background-color: darkcyan;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
-    header {
-      background-color: #007bff; 
-      color: white;
-      text-align: center;
-      padding: 1em;
-    }
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
 
-    main {
-      max-width: 600px;
-      margin: 20px auto;
-      background-color: #d4edda;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+.social-media img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+}
 
-    label {
-      display: block;
-      margin-bottom: 8px;
-    }
-
-    div {
-      margin-bottom: 16px;
-    }
-
-    i {
-      margin-right: 8px;
-    }
-  </style>
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>Contact Us</h1>
-  </header>
+<header>
+    <h1>Eesha Pedakota</h1>
+    <p>Welcome to my personal website!</p>
+</header>
 
-  <main>
-    <form action="#" method="post">
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+<div class="container">
+    <img src="c:\Users\Eesha\Downloads\WhatsApp Image 2024-03-23 at 15.18.16.jpeg" alt="Your Profile Picture" class="profile-img">
+    <div>
+        <p><h1>Hello, I'm Eesha.</h1><br>
+            <h3 class="subtitle">Computer Science and Engineering Student</h3></p>
+    </div>
+</div>
+<div class="container">
+    <div id="about" class="about-me">
+        <h2>About Me</h2>
+        <p>I'm 2nd year undergraduate student in Computer Science and Engineering.I'm passionate about technology and coding.</p>
+    </div>
+</div>
 
-      <label for="email">Email:</label>
-      <div>
-        <i class="fas fa-envelope"></i>
-        <span>sample@gmail.com</span>
-      </div>
 
-      <label for="phone">Phone:</label>
-      <div>
-        <i class="fas fa-phone"></i>
-        <span>+91 xxxxxxxxxx</span>
-      </div>
+<div class="container">
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="event">
+                <div class="date">2022 - Present</div>
+                <div class="details">
+                    <h3>Vellore Institute of Technology</h3>
+                    <p>Bachelor of Technology in Computer Science</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="date">2019 - 2022</div>
+                <div class="details">
+                    <h3>Birla Public School, Doha-Qatar</h3>
+                    <p>High School Diploma</p>
+                    <p>Extracurricular activities: part of school Handball Team, Choir Group, Dance team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
-      <label for="location">Location:</label>
-      <div>
-        <i class="fas fa-map-marker-alt"></i>
-        <span>42, Marine Drive, South Mumbai, Maharashtra - 400020, India</span>
-      </div>
-    </form>
-  </main>
+<div class="container">
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <p>Include your skills and expertise here.</p>
+    </section>
+</div>
+
+<div class="container">
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p>Highlight some of your projects here.</p>
+    </section>
+</div>
+<div class="social-media">
+    <a href="https://www.linkedin.com/in/eesha-pedakota-b033a1273/" target="_blank"><img src="c:\Users\Eesha\Desktop\personal portfolio\linkedin-transparent-22.jpg" alt="Facebook"></a>
+    <a href="https://www.instagram.com/ashee601/" target="_blank"><img src="c:\Users\Eesha\Desktop\personal portfolio\Insta.png" alt="Instagram"></a>
+</div>
+<div class="contact-section" style="background-color: darkcyan; color: white; padding: 40px 0;">
+    <div class="container">
+        <h2>Contact Information</h2>
+        <ul class="contact-info">
+            <li>Email: youremail@example.com</li>
+            <li>Phone: +1234567890</li>
+            <li>Location: Your City, Country</li>
+        </ul>
+    </div>
+</div>
+
+<footer style="background-color: cadetblue; color: white; text-align: center; padding: 20px 0;">
+    <p>All Rights Reserved &copy; 2024 Eesha Pedakota</p>
+</footer>
+
+
+
+<script>
+    //JavaScript functionality
+</script>
 
 </body>
 </html>
