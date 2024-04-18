@@ -399,7 +399,7 @@ footer {
         <div class="timeline">
             <div class="event">
                 <div class="card">
-                    <img src="c:\Users\Eesha\Desktop\personal portfolio\Vellore_Institute_of_Technology_seal_2017.svg.png" alt="University Logo">
+                    <img src="images\Vellore_Institute_of_Technology_seal_2017.svg.png" alt="University Logo">
                     <h3>Vellore Institute of Technology</h3>
                     <p>Bachelor of Technology in Computer Science and Engineering</p>
                     <p>2022 - Present</p>
@@ -532,11 +532,11 @@ footer {
         <p>Productivity based Websites and applications I use to enhance my work quality.</p>
             <div class="tool-grid">
                 <div class="tool">
-                    <img src="c:\Users\Eesha\Desktop\personal portfolio\notion.png" alt="Website 1">
+                    <img src="images\notion.png" alt="Website 1">
                     <a href="https://www.notion.so/"><u>NOTION</u></a>
                 </div>
                 <div class="tool">
-                    <img src="c:\Users\Eesha\Desktop\personal portfolio\forest.png" alt="Website 2">
+                    <img src="images\forest.png" alt="Website 2">
                     <a href="https://www.forestapp.cc/"><u>Forest</u></a>
                 </div>
                 <div class="tool">
@@ -548,11 +548,11 @@ footer {
                     <a href="https://www.microsoft.com/en/microsoft-365/powerpoint"><u>Microsoft Powerpoint</u></a>
                 </div>
                 <div class="tool">
-                    <img src="c:\Users\Eesha\Desktop\personal portfolio\excel.png" alt="Website 5">
+                    <img src="images\excel.png" alt="Website 5">
                     <a href="https://www.microsoft.com/en/microsoft-365/excel"><u>Microsoft Excel</u></a>
                 </div>
                 <div class="tool">
-                    <img src="c:\Users\Eesha\Desktop\personal portfolio\evernoye.png" alt="Website 6">
+                    <img src="images\evernoye.png" alt="Website 6">
                     <a href="https://evernote.com/"><u>Evernote</u></a>
                 </div>
             </div>
@@ -577,8 +577,8 @@ footer {
 </div>
 
 <div class="social-media">
-    <a href="https://www.linkedin.com/in/eesha-pedakota-b033a1273/" target="_blank"><img class="social-icon light-mode" src="c:\Users\Eesha\Downloads\Tranlinkdn.png" alt="Linkedin"></a>
-    <a href="https://www.instagram.com/ashee601/" target="_blank"><img class="social-icon light-mode" src="c:\Users\Eesha\Desktop\personal portfolio\Insta.png" alt="Instagram"></a>
+    <a href="https://www.linkedin.com/in/eesha-pedakota-b033a1273/" target="_blank"><img class="social-icon light-mode" src="images\Tranlinkdn.png" alt="Linkedin"></a>
+    <a href="https://www.instagram.com/ashee601/" target="_blank"><img class="social-icon light-mode" src="images\Insta.png" alt="Instagram"></a>
 </div>
 
 
