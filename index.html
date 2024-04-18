@@ -4,126 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eesha Pedakota : Personal Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        header {
-            background-color: cadetblue;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        .subtitle {
-            color: gray;
-        }
-        nav {
-            text-align: center;
-            background-color: darkcyan;
-        }
-        nav a {
-            display: inline-block;
-            padding: 10px 20px;
-            color: #fff;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        h1, h2, h3 {
-            margin-top: 0;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .contact-info {
-            list-style-type: none;
-            padding: 0;
-        }
-        .contact-info li {
-            margin-bottom: 10px;
-        }
-        .profile-img {
-            border-radius: 50%;
-            width: 200px; 
-            height: 200px; 
-            object-fit: cover;
-            margin-right: 20px;
-        }
-        .timeline {
-            display: flex;
-            flex-direction: column;
-        }
-        .event {
-            display: flex;
-            margin-bottom: 20px;
-        }
-        .date {
-            font-weight: bold;
-            margin-right: 20px;
-        }
-        .details {
-            flex: 1;
-        }
-        .about-me {
-            background-color: darkcyan;
-            color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .social-media {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+    <link rel="stylesheet" href="styleport1.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-.social-media a {
-    display: inline-block;
-    margin: 0 10px;
-}
 
-.social-media img {
-    width: 40px; /* Adjust size as needed */
-    height: 40px; /* Adjust size as needed */
-}
-
-    </style>
 </head>
 <body>
-
-<header>
-    <h1>Eesha Pedakota</h1>
-    <p>Welcome to my personal website!</p>
-</header>
-
 <nav>
-    <a href="#about">About Me</a>
+    <a align="left" href="c:\Users\Eesha\Desktop\personal portfolio\PORTFOLIOSAMPLE1.html" class="logo-link">
+        <img src="c:\Users\Eesha\Downloads\EESHA.png" alt="Logo">
+    </a>
     <a href="#education">Education</a>
     <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
+    <a href="#tools">Tools</a>
+    <a href="#about" >About Me</a>
     <a href="#contact">Contact</a>
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">
+        <i id="dark-mode-icon" class="fas fa-sun"></i> 
+    </button>
 </nav>
+<br><br><br><br><br><br>
+
 <div class="container">
-    <img src="c:\Users\Eesha\Downloads\WhatsApp Image 2024-03-23 at 15.18.16.jpeg" alt="Your Profile Picture" class="profile-img">
     <div>
-        <p><h1>Hello, I'm Eesha.</h1><br>
+        <p><h1 class="heading">Hello, I'm <span class="name">Eesha.</span><br>
             <h3 class="subtitle">Computer Science and Engineering Student</h3></p>
-    </div>
-</div>
-<div class="container">
-    <div id="about" class="about-me">
-        <h2>About Me</h2>
-        <p>I'm 2nd year undergraduate student in Computer Science and Engineering.I'm passionate about technology and coding.</p>
+            <p>Enthusiastic student with a passion for problem-solving and innovation.<br>
+                Dedicated to learning and applying cutting-edge technologies to create impactful solutions</p>
+            <a href="mailto:your-email@example.com" class="contact-button">Contact Me</a>
     </div>
 </div>
 
@@ -133,49 +41,198 @@
         <h2>Education</h2>
         <div class="timeline">
             <div class="event">
-                <div class="date">2022 - Present</div>
-                <div class="details">
+                <div class="card">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\Vellore_Institute_of_Technology_seal_2017.svg.png" alt="University Logo">
                     <h3>Vellore Institute of Technology</h3>
-                    <p>Bachelor of Technology in Computer Science</p>
+                    <p>Bachelor of Technology in Computer Science and Engineering</p>
+                    <p>2022 - Present</p>
                 </div>
             </div>
             <div class="event">
-                <div class="date">2019 - 2022</div>
-                <div class="details">
+                <div class="card">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\download.jpeg" alt="School Logo">
                     <h3>Birla Public School, Doha-Qatar</h3>
                     <p>High School Diploma</p>
-                    <p>Extracurricular activities: part of school Handball Team, Choir Group, Dance team</p>
+                    <p>2019 - 2022</p>
                 </div>
             </div>
         </div>
+        
     </section>
 </div>
 
 <div class="container">
     <section id="skills" class="section">
         <h2>Skills</h2>
-        <p>Include your skills and expertise here.</p>
+        
+        <button class="dropdown-btn" onclick="toggleDropdown('programming-languages')">Programming Languages and Technologies ▼</button>
+        <div class="progress-bars programming-languages">
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C programming</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C++ programming</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Java</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="dropdown-btn" onclick="toggleDropdown('web-development')">Web Development ▼</button>
+        <div class="progress-bars web-development">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+        <button class="dropdown-btn" onclick="toggleDropdown('cs-domain')">CS Domain  &#9660;</button>
+        <div class="progress-bars cs-domain">
+            <div class="skill">
+                <p>Data Structures and Algorithms</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Digital Logic and Design</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Object oriented Structured Programming</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Computer Architecture and Organization</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Design Analysis and Algorithms</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>    
+        <div class="container1">
+            <h3>Soft skills</h3>
+            <div id="skill-cloud">
+                <div class="skill-tag" data-skill="Leadership">Leadership</div>
+                <div class="skill-tag" data-skill="Communication">Communication</div>
+                <div class="skill-tag" data-skill="Problem Solving">Problem Solving</div>
+                <div class="skill-tag" data-skill="Creativity">Creativity</div>
+                <div class="skill-tag" data-skill="teamwork">Teamwork</div>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="modal-skill"></h3>
+                <p id="modal-text"></p>
+            </div>
+        </div>
+
     </section>
 </div>
 
+
 <div class="container">
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <p>Highlight some of your projects here.</p>
+    <section id="tools" class="section">
+        <h2>Tools</h2>
+        <p>Productivity based Websites and applications I use to enhance my work quality.</p>
+            <div class="tool-grid">
+                <div class="tool">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\notion.png" alt="Website 1">
+                    <a href="https://www.notion.so/"><u>NOTION</u></a>
+                </div>
+                <div class="tool">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\forest.png" alt="Website 2">
+                    <a href="https://www.forestapp.cc/"><u>Forest</u></a>
+                </div>
+                <div class="tool">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\word.jpg" alt="Website 3">
+                    <a href="https://www.microsoft.com/en/microsoft-365/word"><u>Microsoft Word</u></a>
+                </div>
+                <div class="tool">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\ppt.jpeg" alt="Website 4">
+                    <a href="https://www.microsoft.com/en/microsoft-365/powerpoint"><u>Microsoft Powerpoint</u></a>
+                </div>
+                <div class="tool">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\excel.png" alt="Website 5">
+                    <a href="https://www.microsoft.com/en/microsoft-365/excel"><u>Microsoft Excel</u></a>
+                </div>
+                <div class="tool">
+                    <img src="c:\Users\Eesha\Desktop\personal portfolio\evernoye.png" alt="Website 6">
+                    <a href="https://evernote.com/"><u>Evernote</u></a>
+                </div>
+            </div>
+        </div>
+        
     </section>
 </div>
-<div class="social-media">
-    <a href="https://www.linkedin.com/in/eesha-pedakota-b033a1273/" target="_blank"><img src="c:\Users\Eesha\Desktop\personal portfolio\linkedin-transparent-22.jpg" alt="Facebook"></a>
-    <a href="https://www.instagram.com/ashee601/" target="_blank"><img src="c:\Users\Eesha\Desktop\personal portfolio\Insta.png" alt="Instagram"></a>
+<div class="container">
+    <div id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="c:\Users\Eesha\Downloads\WhatsApp Image 2024-03-23 at 15.18.16.jpeg" alt="Profile Picture" class="profile-picture">
+            <div class="bio">
+                <h3>Hello, I'm Eesha Pedakota.</h3>
+                <p>I'm a 2nd-year undergraduate student studying Computer Science and Engineering, currently exploring the realms of technology and creativity. With a passion for learning and innovation, I strive to contribute to the world of open software development.</p>
+                <p>In addition to my academic pursuits, I enjoy coding, designing, and collaborating on projects that tackle real-world problems. I'm enthusiastic about leveraging technology to create positive impacts and enhance user experiences.</p>
+                <p>When I'm not immersed in code or design, you can find me exploring nature, capturing moments through photography, or delving into a good book.</p>
+                <p>Let's connect and embark on a journey of discovery and innovation together!</p>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="social-media">
+    <a href="https://www.linkedin.com/in/eesha-pedakota-b033a1273/" target="_blank"><img class="social-icon light-mode" src="c:\Users\Eesha\Downloads\Tranlinkdn.png" alt="Linkedin"></a>
+    <a href="https://www.instagram.com/ashee601/" target="_blank"><img class="social-icon light-mode" src="c:\Users\Eesha\Desktop\personal portfolio\Insta.png" alt="Instagram"></a>
+</div>
+
+
 <div class="contact-section" style="background-color: darkcyan; color: white; padding: 40px 0;">
-    <div class="container">
+    <div id="contact" class="container">
         <h2>Contact Information</h2>
-        <ul class="contact-info">
-            <li>Email: youremail@example.com</li>
-            <li>Phone: +1234567890</li>
-            <li>Location: Your City, Country</li>
-        </ul>
+        <p class="contact-info">
+            <p>Email: eesha.pedakota2022@vitstudent.ac.in</p>
+            <p>Phone: +91 7416413865</p>
+            <p>Location: Vellore-Tamil Nadu</p>
+        </p>
     </div>
 </div>
 
@@ -186,7 +243,78 @@
 
 
 <script>
-    //JavaScript functionality
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle("dark-mode"); 
+    
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    const icon = document.getElementById("dark-mode-icon");
+
+    if (body.classList.contains("dark-mode")) {
+        icon.classList.remove("fa-sun");
+        icon.classList.add("fa-moon");
+        darkModeToggle.style.backgroundColor = "#333"; 
+        icon.style.color = "#c0c0c0"; 
+    } else {
+        icon.classList.remove("fa-moon");
+        icon.classList.add("fa-sun");
+        darkModeToggle.style.backgroundColor = "#fff"; 
+        icon.style.color = "cadetblue"; 
+    }
+}
+function toggleDropdown(section) {
+    var dropdown = document.querySelector('.' + section);
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+}
+document.addEventListener('DOMContentLoaded', function() {
+    var skillTags = document.querySelectorAll('.skill-tag');
+    var modal = document.getElementById('modal');
+    var modalSkill = document.getElementById('modal-skill');
+    var modalText = document.getElementById('modal-text');
+    var closeBtn = document.querySelector('.close');
+
+    var skillContent = {
+        'Leadership':'Proven leader with a talent for inspiring teams towards shared goals. Skilled in decision-making, delegation, and conflict resolution, I empower individuals to achieve their best. Through clear direction and mentorship, I foster growth and success.',
+        'Communication': 'Skilled communicator adept at conveying ideas clearly and fostering teamwork. Proficient in written and verbal communication, I excel in facilitating discussions and resolving conflicts. Known for active listening and motivating others, I create positive work environments',
+        'Problem Solving': 'Effective problem solver with a strategic approach and analytical mindset. Proficient in identifying root causes and implementing innovative solutions. Known for adaptability and resilience in overcoming challenges, I thrive in dynamic environments and drive continuous improvement',
+        'Creativity': 'Innovative thinker with a flair for creativity in problem-solving. Known for thinking outside the box and generating unique ideas. Skilled in turning concepts into tangible outcomes, I bring fresh perspectives and inspire imaginative solutions.',
+        'teamwork':'Collaborative team player committed to achieving collective success. Adept at building strong relationships and fostering an inclusive environment. Known for active participation and support, I leverage diverse perspectives to drive synergy and accomplish shared objectives.'
+    };
+
+    skillTags.forEach(function(tag) {
+        tag.addEventListener('click', function() {
+            var skill = this.getAttribute('data-skill');
+            modalSkill.textContent = skill;
+            modalText.textContent = skillContent[skill] || '';
+            modal.style.display = 'block';
+        });
+    });
+
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+
+
 </script>
 
 </body>
