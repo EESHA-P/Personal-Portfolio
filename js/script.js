@@ -11,13 +11,13 @@
       name: "Fed-Fusion-T",
       description: "Federated CNN\u2013Transformer framework for MRI tumor classification.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Federated-CNN-Transformer-framework-for-medical-imaging-classification" // <-- replace with the real repository URL
     },
     {
       name: "Code Review Assistant",
       description: "AI-powered static analysis tool with a FastAPI backend.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Code-review-assistant" // <-- replace with the real repository URL
     },
     {
       name: "Smart Parking & Traffic Control",
