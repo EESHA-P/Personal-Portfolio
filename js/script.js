@@ -3,9 +3,7 @@
 
   var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ------------------------------------------------------------------
-     CONFIG — edit these values, do not touch markup elsewhere.
-     ------------------------------------------------------------------ */
+
   var REPOS = [
     {
       name: "Fed-Fusion-T",
