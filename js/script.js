@@ -3,9 +3,7 @@
 
   var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ------------------------------------------------------------------
-     CONFIG — edit these values, do not touch markup elsewhere.
-     ------------------------------------------------------------------ */
+
   var REPOS = [
     {
       name: "Fed-Fusion-T",
@@ -23,13 +21,13 @@
       name: "Smart Parking & Traffic Control",
       description: "Simulated IoT parking system with predictive availability.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Smart-Parking-System" // <-- replace with the real repository URL
     },
     {
       name: "Voice Assistant AI",
       description: "Real-time speech-to-speech assistant using the ElevenLabs API.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Voice-Assistant-AI" // <-- replace with the real repository URL
     }
   ];
 
