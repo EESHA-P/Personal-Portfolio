@@ -9,25 +9,25 @@
       name: "Fed-Fusion-T",
       description: "Federated CNN\u2013Transformer framework for MRI tumor classification.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Federated-CNN-Transformer-framework-for-medical-imaging-classification" 
     },
     {
       name: "Code Review Assistant",
       description: "AI-powered static analysis tool with a FastAPI backend.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Code-review-assistant" 
     },
     {
       name: "Smart Parking & Traffic Control",
       description: "Simulated IoT parking system with predictive availability.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Smart-Parking-System" 
     },
     {
       name: "Voice Assistant AI",
       description: "Real-time speech-to-speech assistant using the ElevenLabs API.",
       language: "Python",
-      url: "PASTE_GITHUB_URL_HERE" // <-- replace with the real repository URL
+      url: "https://github.com/EESHA-P/Voice-Assistant-AI"
     }
   ];
 
